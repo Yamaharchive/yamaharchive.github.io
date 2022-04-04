@@ -9,13 +9,14 @@ html, body {
 	top: 0px;
 }
 body {
-    background: url("/images/main_bg.png") repeat-y scroll 50% 0 #076eed;
+    background: url("/images/main_bg_dark.png") repeat-y scroll 50% 0 #222222;
     font-family: sans-serif;
+    color: #FFFFFF;
     margin: 0;
     padding-bottom: 0;
 }
 .bg_full {
-    background: #F2F2F2 !important;
+    background: #333333 !important;
 }
 #modify {
     margin-top: 27px;
@@ -27,8 +28,8 @@ body {
     padding: 0 6px;
 }
 .error_messages {
-    background-color: #FFEAEA;
-    border: 1px solid #FF9595;
+    background-color: #773333;
+    border: 1px solid #FF3333;
     border-radius:.7em;
     font-size: 90%;
     line-height: 1;
@@ -36,8 +37,8 @@ body {
     padding: 10px 8px;
 }
 .notice_messages {
-    background-color: #AAFFAA;
-    border: 1px solid #66FF66;
+    background-color: #337733;
+    border: 1px solid #33FF33;
     border-radius:.7em;
     font-size: 90%;
     line-height: 1;
@@ -94,14 +95,14 @@ td img {
     margin: 2px auto;
 }
 #page {
-    background: url("/images/main_bg.png") repeat-y scroll 50% 0 #ffe970;
+    background: url("/images/main_bg_dark.png") repeat-y scroll 50% 0 #222222;
     min-height: 100%;
 }
 * html #container {
     height: 100%;
 }
 tr#tabheader, tr.tabheader {
-    background-color: #ffadfa;
+    background-color: #CCCCCC;
     color: #777777;
     cursor: pointer;
     font-weight: 700;
@@ -110,7 +111,7 @@ tr#tabheader, tr.tabheader {
     vertical-align: middle;
 }
 #container {
-    background: url("/images/main_bg.png") repeat-y scroll 50% 0 #ffe970;
+    background: url("/images/main_bg_dark.png") repeat-y scroll 50% 0 #222222;
     margin: 0 auto;
     padding: 0;
     width: 100%;
@@ -136,7 +137,19 @@ tr#tabheader, tr.tabheader {
     position: relative;
 }
 a {
-    color: #000000;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+td {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+p {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+span {
+    color: #FFFFFF;
     text-decoration: none;
 }
 li {
@@ -151,7 +164,7 @@ a:hover {
     text-decoration: none;
 }
 .invlink:hover {
-    color: #000000;
+    color: #FFFFFF;
 }
 .lend1 {
     padding-left: 5px;
@@ -287,17 +300,18 @@ td {
     width: 100%;
 }
 #header {
-    background: url("/images/banner2.png") no-repeat;
+    background: url("/images/banner3_dark.png") no-repeat;
     background-position: center;
 }
 #navvyyyuwu {
-	background: rgb(109,179,242);
-	background: -moz-linear-gradient(top,  rgba(109,179,242,1) 0%, rgba(84,163,238,1) 50%, rgba(54,144,240,1) 51%, rgba(30,105,222,1) 100%);
-	background: -webkit-linear-gradient(top,  rgba(109,179,242,1) 0%,rgba(84,163,238,1) 50%,rgba(54,144,240,1) 51%,rgba(30,105,222,1) 100%);
-	background: -o-linear-gradient(top,  rgba(109,179,242,1) 0%,rgba(84,163,238,1) 50%,rgba(54,144,240,1) 51%,rgba(30,105,222,1) 100%);
-	background: -ms-linear-gradient(top,  rgba(109,179,242,1) 0%,rgba(84,163,238,1) 50%,rgba(54,144,240,1) 51%,rgba(30,105,222,1) 100%);
-	background: linear-gradient(top,  rgba(109,179,242,1) 0%,rgba(84,163,238,1) 50%,rgba(54,144,240,1) 51%,rgba(30,105,222,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0057B8', endColorstr='#FFD700',GradientType=0 );
+	background: rgb(110,110,110);
+	background: -moz-linear-gradient(top,  rgba(110,110,110,1) 0%, rgba(100,100,100,1) 50%, rgba(80,80,80,1) 51%, rgba(70,70,70,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(110,110,110,1)), color-stop(50%,rgba(100,100,100,1)), color-stop(51%,rgba(80,80,80,1)), color-stop(100%,rgba(70,70,70,1)));
+	background: -webkit-linear-gradient(top,  rgba(110,110,110,1) 0%,rgba(100,100,100,1) 50%,rgba(80,80,80,1) 51%,rgba(70,70,70,1) 100%);
+	background: -o-linear-gradient(top,  rgba(110,110,110,1) 0%,rgba(100,100,100,1) 50%,rgba(80,80,80,1) 51%,rgba(70,70,70,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(110,110,110,1) 0%,rgba(100,100,100,1) 50%,rgba(80,80,80,1) 51%,rgba(70,70,70,1) 100%);
+	background: linear-gradient(top,  rgba(110,110,110,1) 0%,rgba(100,100,100,1) 50%,rgba(80,80,80,1) 51%,rgba(70,70,70,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=0 );
     height: 26px;
     position: relative;
     text-align: center;
@@ -333,7 +347,7 @@ input:focus, button:focus {
     width: 100%;
 }
 #header, #searchbox, #quicknav, #quicknav a, #platformlist, #masthead  {
-    background-color: #5C72A4;
+    background-color: #000000;
 }
 #masthead .mh_wrap {
     margin: 0 auto;
@@ -757,56 +771,56 @@ div.ACS_slider div.ACS_knob img {
     background-color: #FFFFFF;
 }
 .unavailable {
-    color: #FF0000;
+    color: #FF2525;
     text-decoration: line-through;
 }
 .warn_text {
-    color: #FF0000;
+    color: #FF2525;
     font-weight: bold;
 }
 .row_bg1 {
-    background-color: #E7E7E7;
+    background-color: #3F3F3F;
 }
 .row_bg2 {
-    background-color: #F2F2F2;
+    background-color: #303030;
 }
 .row_bg3 {
-    background-color: #FFFFFF;
+    background-color: #3F3F3F;
 }
 .playingrow {
-    background-color: #00FF00;
+    background-color: #00A000;
 }
 .admin_badge {
     font-style: italic;
     color: #D0950B;
 }
 .mark_green {
-    background-color: #00FF00;
+    background-color: #00A000;
 }
 .mark_yellow {
-    background-color: #FFDD00;
+    background-color: #A08800;
 }
 .mark_orange {
-    background-color: #FF8D00;
+    background-color: #A05500;
 }
 .mark_red {
-    background-color: #FF3A3A;
+    background-color: #A00000;
 }
 .mark_blue {
-    background-color: #20BAFF;
+    background-color: #0084D9;
 }
 .mark_green_2 {
-    background-color: #00E200;
+    background-color: #1DBD1D;
 }
 .mark_yellow_2 {
-    background-color: #EFCD00;
+    background-color: #BDA51D;
 }
 .mark_orange_2 {
-    background-color: #EF7D00;
+    background-color: #BD7200;
 }
 .mark_red_2 {
-    background-color: #E21E1E;
+    background-color: #BD1D1D;
 }
 .mark_blue_2 {
-    background-color: #029EE2;
+    background-color: #1DA1F6;
 }
